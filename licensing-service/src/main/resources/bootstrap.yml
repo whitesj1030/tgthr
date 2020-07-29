@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: licensingservice
+  profiles:
+    active:
+      default  ##서비스가 실행할 기본 프로파일을 지정한다. 프로파일은 환경에 매핑된다.
+  cloud:
+    config:
+      enabled: true
